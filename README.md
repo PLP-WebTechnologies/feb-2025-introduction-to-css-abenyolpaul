@@ -15,6 +15,8 @@ Color and typography.
 Margins, paddings, and borders.
 
 
+
+css
 /* Reset some default styles */
 * {
     margin: 0;
@@ -194,6 +196,83 @@ body {
         flex: 1;
     }
 }
+Corresponding HTML Structure
+To use this CSS, here's a basic HTML structure you could apply it to:
+
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1>My Website</h1>
+    </header>
+
+    <nav class="nav-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main class="main-content">
+            <article class="article">
+                <h2>Article Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
+                <a href="#" class="btn">Read More</a>
+            </article>
+
+            <article class="article">
+                <h2>Another Article</h2>
+                <p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
+                <a href="#" class="btn btn-danger">Warning</a>
+            </article>
+        </main>
+
+        <aside id="sidebar">
+            <h3>Sidebar</h3>
+            <p>Some sidebar content here.</p>
+            <p class="text-primary">Highlighted text.</p>
+        </aside>
+    </div>
+
+    <footer id="main-footer">
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+This CSS demonstrates:
+
+Class selectors (.nav-menu, .article, .btn)
+
+ID selectors (#main-header, #sidebar, #main-footer)
+
+Color properties (background-color, color)
+
+Typography (font-family, font-size, line-height)
+
+Margins and paddings (margin, padding)
+
+Borders (border, border-radius)
+
+Responsive design with media queries
+
+Utility classes for common styling needs
+
+Hover effects and transitions
+
+New chat
+Message DeepSeek
+AI-generated, for reference only
+
 
 >[!NOTE]
 >  - Include at least:
